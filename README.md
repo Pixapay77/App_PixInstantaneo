@@ -9,20 +9,20 @@ Link oficial para download: https://pixapay.com.br/arquivos/Pixapay.zip
 **Json de parâmetro**
 ```
   {
-   "login":{
-      "email":"seu@email.com",
-      "password":"senhaDeAcesso"
-   },
-   "financeiro_conta_idpk": 1, /*Código que identifica qual é o caixa ou conta bancária que estaria sendo movimentada para relatórios futuros de conferência*/
-   "sistema_idpk":1, /*Código único que identifica qual é o sistema que está sendo utilizado*/
-   "empresa_idpk":1, /*Código único para identificar qual é a empresa que está sendo utilizada*/
-   "filial_idpk":null, /*Caso este sistema for de uma filial, informa aqui seu código único*/
-   "formVisible": true, /*Caso este parâmetro for true, exibirá a tela da fintech ao abrir o EXE. Caso for false, abrirá minimizado*/
-   "callbackFilePath":"c:\\a\\", /*Caminho físico onde o pixapay gerará os arquivos de retorno sobre o processamento da cobrança PIX*/
-   "charge":{
-      "amountValue": 1500.50, /*Valor a ser gerada a cobrança pix*/
-      "description":"Descrição para a cobrança" /*Descrição sobre a cobrança*/
-   }
+      "login":{
+         "email":"seu@email.com",
+         "password":"senhaDeAcesso"
+      },
+      "financeiro_conta_idpk": 1, /*Código que identifica qual é o caixa ou conta bancária que estaria sendo movimentada para relatórios futuros de conferência*/
+      "sistema_idpk":1, /*Código único que identifica qual é o sistema que está sendo utilizado*/
+      "empresa_idpk":1, /*Código único para identificar qual é a empresa que está sendo utilizada*/
+      "filial_idpk":null, /*Caso este sistema for de uma filial, informa aqui seu código único*/
+      "formVisible": true, /*Caso este parâmetro for true, exibirá a tela da fintech ao abrir o EXE. Caso for false, abrirá minimizado*/
+      "callbackFilePath":"c:\\a\\", /*Caminho físico onde o pixapay gerará os arquivos de retorno sobre o processamento da cobrança PIX*/
+      "charge":{
+         "amountValue": 1500.50, /*Valor a ser gerada a cobrança pix*/
+         "description":"Descrição para a cobrança" /*Descrição sobre a cobrança*/
+      }
   }  
 ``` 
 
