@@ -78,8 +78,8 @@ Quando a propriedade "formVisible" for "false", o EXE da fintech abrirá minimiz
 **Json de cancelmaneto**
 ```
   {
-   "status":"erro",
-   "mensagem":"Cobrança cancelada."
+      "status":"erro",
+      "mensagem":"Cobrança cancelada."
   }
 ```
 
@@ -88,20 +88,20 @@ Quando a propriedade "formVisible" for "false", o EXE da fintech abrirá minimiz
 **Json de pagamento efetuado**
 ```
   {
-   "status":"sucesso",
-   "pix":{
-      "fmp_idpk":258,
-      "fmp_status":"Liquidado",
-      "fmp_pagador_nome":"DOUGLAS COLOMBO",
-      "fmp_pagador_banco":"BCO DO ESTADO DO RS S.A.",
-      "fmp_pagador_conta":"3985072308",
-      "fmp_pagamento_data":"11\/11\/2021 17:52:37",
-      "fmp_pagador_agencia":"510",
-      "fmp_pagador_documento":"04005135013",
-      "fmp_pagador_conta_tipo":"PO",
-      "fmp_cobranca_valor_recebido":2,
-      "fmp_pagamento_transacao_id":"191BD57A-8771-E015-4164-D0DCE6DE92F8"
-   }
+      "status":"sucesso",
+      "pix":{
+         "fmp_idpk":258,
+         "fmp_status":"Liquidado",
+         "fmp_pagador_nome":"DOUGLAS COLOMBO",
+         "fmp_pagador_banco":"BCO DO ESTADO DO RS S.A.",
+         "fmp_pagador_conta":"3985072308",
+         "fmp_pagamento_data":"11\/11\/2021 17:52:37",
+         "fmp_pagador_agencia":"510",
+         "fmp_pagador_documento":"04005135013",
+         "fmp_pagador_conta_tipo":"PO",
+         "fmp_cobranca_valor_recebido":2,
+         "fmp_pagamento_transacao_id":"191BD57A-8771-E015-4164-D0DCE6DE92F8"
+      }
   }
 ```
 
