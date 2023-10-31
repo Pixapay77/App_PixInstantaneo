@@ -1,7 +1,3 @@
-# Pixapay-Fintech
-Este repositório guarda algumas das documentações referentes a fintech [Pixapay](https://pixapay.com.br)!
-
-
 ### PIXAPAY PDV
 - O aplicativo pixapay possui integração direta com qualquer PDV que desejar utilizá-lo. Por ele, é possível gerar cobranças de PIX instantâneo totalmente integrado.
 
